@@ -5,14 +5,6 @@
 export const environment = {
   production: false,
   
-  firebaseConfig: {
-    apiKey: "AIzaSyDyA1ONEjGUohP-3yHdEng-LkbgBku7frc",
-    authDomain: "ejsendgrid.firebaseapp.com",
-    projectId: "ejsendgrid",
-    storageBucket: "ejsendgrid.appspot.com",
-    messagingSenderId: "654269863713",
-    appId: "1:654269863713:web:942e34e04339f63e739060"
-  }
 };
 
 

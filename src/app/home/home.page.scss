@@ -6,8 +6,12 @@
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+
 }
 
+.main {
+  --background:#ecececda;
+}
 #container strong {
   font-size: 20px;
   line-height: 26px;
@@ -25,3 +29,22 @@
 #container a {
   text-decoration: none;
 }
+
+.Activo {
+  --background: var(--ion-color-success);
+}
+
+.Pendiente {
+  --background: var(--ion-color-danger);
+}
+
+// ion-content{
+
+//   --ion-background-color:#e8f1f3;
+// }
+
+ion-card{
+
+  --ion-background-color:#ffffff;
+}
+
